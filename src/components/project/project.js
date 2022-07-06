@@ -11,7 +11,7 @@ const data = [
     image: Img,
     title: 'Portfolio Using React',
     github: 'https://github.com/prabhakar-srivastava/portfolio-react.git',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    demo: 'https://prabhakar-profile.000webhostapp.com/'
     
   },
   {
@@ -29,7 +29,7 @@ const data = [
     image: Img3,
     title: 'Loan Eligibility Prediction ',
     github: 'https://github.com/prabhakar-srivastava/Loan-Eligibility-Prediction.git',
-    demo: 'saddas'
+    // demo: 'saddas'
     
   },
   // {
