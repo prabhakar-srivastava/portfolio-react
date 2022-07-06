@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio-react%20/static/css/main.613241fb.css",
+    "main.js": "/portfolio-react%20/static/js/main.22b4f8ca.js",
+    "static/media/IMG_20220205_160410.jpg": "/portfolio-react%20/static/media/IMG_20220205_160410.cb759d5b9af12f8746bc.jpg",
+    "static/media/IMG_20220328_131124.jpg": "/portfolio-react%20/static/media/IMG_20220328_131124.71d3baa465dc4ecf183a.jpg",
+    "static/media/PhotoEditor_202276162741247.jpg": "/portfolio-react%20/static/media/PhotoEditor_202276162741247.317d81f8de427e8e4f0e.jpg",
+    "static/media/PhotoEditor_2022761698218.jpg": "/portfolio-react%20/static/media/PhotoEditor_2022761698218.335540778f4ade728f1b.jpg",
+    "static/media/PhotoEditor_20227616212413.jpg": "/portfolio-react%20/static/media/PhotoEditor_20227616212413.65d11adfb5d51fdd68a4.jpg",
+    "static/media/Prabhakar_resume.pdf": "/portfolio-react%20/static/media/Prabhakar_resume.78e185ace296e79122c6.pdf",
+    "index.html": "/portfolio-react%20/index.html",
+    "main.613241fb.css.map": "/portfolio-react%20/static/css/main.613241fb.css.map",
+    "main.22b4f8ca.js.map": "/portfolio-react%20/static/js/main.22b4f8ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.613241fb.css",
+    "static/js/main.22b4f8ca.js"
+  ]
+}
