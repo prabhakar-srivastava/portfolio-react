@@ -9,9 +9,11 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    box-shadow:10px 20px 50px 5px rgba(18, 8, 10, 0.704);
 }
 .portfolio_item:hover {
     border-color: var(--color-primary-variant);
+    /* box-shadow:10px 20px 50px 5px rgba(18, 8, 10, 0.899); */
     background: transparent;
 }
 .portfolio_item-image {

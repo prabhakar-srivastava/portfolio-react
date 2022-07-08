@@ -30,6 +30,7 @@
     background: linear-gradient(30deg,rgba(155, 212, 255, 0.641),transparent);
     padding: 1.8rem;
     border-radius: 2rem;
+    backdrop-filter: blur(10px);
     /* display:flex;
     flex-direction: column; */
     /* grid-row: 85% 10%; */

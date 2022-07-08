@@ -50,6 +50,7 @@ textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    backdrop-filter: blur(10px);
 }
 /* =========media for mobile============= */
 @media screen and (max-width: 600px) {

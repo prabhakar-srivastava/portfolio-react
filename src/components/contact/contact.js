@@ -1,12 +1,16 @@
-import React,{useRef} from 'react'
+import React,{useRef}  from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
 import {AiOutlineMessage} from 'react-icons/ai'
 import emailjs from 'emailjs-com'
+import { useState } from 'react'
+import Popup from './Popup'
 
 
 const Contact = () => {
+
+  const [buttonPopup, setButtonPopup] = useState(false);
 
     const form = useRef();
     const sendEmail = (e) => {
@@ -32,7 +36,7 @@ const Contact = () => {
           <article className="contact_option">
           <AiOutlineMessage className='contact_option-icon'/>
           <h4>Message</h4>
-          <h5></h5>
+          {/* <h5></h5> */}
           <a href="https://m.me/profile.php?id=100008924291714" target='_blank'>Send a message</a>
           </article>
           <article className="contact_option">
@@ -48,9 +52,15 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <button type='submit' className='btn btn-primary' onClick={()=> setButtonPopup(true)}>Send Message</button>
 
         </form>
+        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+          <h3>THANK YOU</h3>
+          <p>For Getting In Touch ...</p>
+        </Popup>
+
+
       </div>
 
     </section>

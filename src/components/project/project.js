@@ -3,6 +3,7 @@ import './project.css'
 import Img from '../../assets/PhotoEditor_20227616212413.jpg'
 import Img2 from '../../assets/PhotoEditor_2022761698218.jpg'
 import Img3 from '../../assets/PhotoEditor_202276162741247.jpg'
+import Img4 from '../../assets/PhotoEditor_202277163614820.jpg'
 
 const data = [
   {
@@ -11,7 +12,7 @@ const data = [
     image: Img,
     title: 'Portfolio Using React',
     github: 'https://github.com/prabhakar-srivastava/portfolio-react.git',
-    demo: 'https://prabhakar-profile.000webhostapp.com/'
+    demo: 'https://prabhakar-portfolio.netlify.app/'
     
   },
   {
@@ -32,15 +33,15 @@ const data = [
     // demo: 'saddas'
     
   },
-  // {
+  {
     
-  //   id: 4,
-  //   image: Img,
-  //   title: 'Crypto Currency Dashboard & Financial Visualization',
-  //   github: 'https://github.com',
-  //   demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    id: 4,
+    image: Img4,
+    title: 'Original - Blogging Website (Ongoing)',
+    // github: 'https://github.com',
+    // demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
     
-  // }
+  }
 ]
 
 const Project = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../../assets/Prabhakar_resume.pdf'
+import Resume from '../../assets/Prabhakar-resume.pdf'
 
 function Cta() {
   return (
