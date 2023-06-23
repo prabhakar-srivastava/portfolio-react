@@ -6,6 +6,7 @@ import Header from "./components/header/header";
 import Nav from "./components/nav/nav";
 import Project from "./components/project/project";
 import Experience from "./components/experience/experience";
+import Testimonial from "./components/testimonial/testimonial";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Experience />
       <Project />
+      <Testimonial />
       <Contact />
       <Footer />
 
