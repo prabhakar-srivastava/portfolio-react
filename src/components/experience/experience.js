@@ -57,6 +57,15 @@ function Experience() {
               <BsPatchCheckFill className='icon' />
               <div>
 
+                <h4>NEXT JS</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+
+            </article>
+            <article className='experience_detail'>
+              <BsPatchCheckFill className='icon' />
+              <div>
+
                 <h4>BOOTSTRAP</h4>
                 <small className='text-light'>Intermediate</small>
               </div>

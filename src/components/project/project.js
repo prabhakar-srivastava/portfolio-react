@@ -3,7 +3,9 @@ import './project.css'
 import Img from '../../assets/PhotoEditor_20227616212413.jpg'
 import Img2 from '../../assets/PhotoEditor_2022761698218.jpg'
 import Img3 from '../../assets/PhotoEditor_202276162741247.jpg'
-import Img4 from '../../assets/PhotoEditor_202277163614820.jpg'
+import Img6 from '../../assets/PhotoEditor_202277163614820.jpg'
+import Img4 from '../../assets/sort-algo.png'
+import Img5 from '../../assets/search-filter.png'
 
 const data = [
   {
@@ -21,7 +23,7 @@ const data = [
     image: Img2,
     title: 'Pynch - A Social Media Web App',
     github: 'https://github.com/prabhakar-srivastava/pynch-socialMedia.git',
-    demo: 'http://pynch.epizy.com/?i=1'
+    demo: 'http://pynch.infinityfreeapp.com/?i=1'
     
   },
   {
@@ -29,14 +31,33 @@ const data = [
     id: 3,
     image: Img3,
     title: 'Loan Eligibility Prediction ',
-    github: 'https://github.com/prabhakar-srivastava/Loan-Eligibility-Prediction.git',
+    github: 'https://github.com/prabhakar-srivastava/Loan-Eligibility-Prediction.git'
     // demo: 'saddas'
     
   },
+  
   {
     
     id: 4,
     image: Img4,
+    title: 'Sorting Visualizer',
+    github: 'https://github.com/prabhakar-srivastava/sorting-visualization.git',
+    demo: 'https://sort-algo-visuals.netlify.app'
+    
+  },
+  {
+    
+    id: 5,
+    image: Img5,
+    title: 'movie search-filter',
+    github: 'https://github.com/prabhakar-srivastava/movie-search-and-filter.git',
+    demo: 'https://movie-search-filter.netlify.app'
+    
+  },
+  {
+    
+    id: 6,
+    image: Img6,
     title: 'Original - Blogging Website (Ongoing)',
     // github: 'https://github.com',
     // demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
@@ -55,7 +76,7 @@ const Project = () => {
             return (
               <article key={id} className='portfolio_item'>
                 <div className="portfolio_item-image">
-                  <img src={image} alt={title} />
+                  <img src={image} alt={title}  height={300} width={300}/>
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio_item-cta">
