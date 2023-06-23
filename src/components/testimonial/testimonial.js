@@ -1,4 +1,5 @@
 import React from 'react'
+import './testimonial.css'
 
 function Testimonial() {
   return (
@@ -10,14 +11,14 @@ function Testimonial() {
     }}>
         <h2>Testimonial</h2>
         
-        <div style={{
+        <div className='testCSS' style={{
                background: 'var(--colof-bg-variant)',
                padding: '1.5rem ',
                borderRadius: '2rem',
                border: '1px solid transparent',
                transition: 'var(--transition)',
                boxShadow:'10px 20px 50px 5px rgba(18, 8, 10, 0.704)',
-               width:'60rem',
+            
         }}>
             <p>
                 Mr. Prabhakar has worked directly under my supervision for the past weeks and one of those rare individuals who can both follow instructions and take initiative .

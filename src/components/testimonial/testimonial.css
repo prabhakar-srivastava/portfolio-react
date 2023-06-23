@@ -1,0 +1,23 @@
+
+.testCSS{
+    width: 60rem;
+}
+
+
+/* =========media============= */
+@media screen and (max-width: 1000px) {
+    .testCSS{
+        width: 40rem;
+    }
+
+
+
+}
+
+/* ============= mobile ============== */
+@media screen and (max-width: 600px) {
+    .testCSS {
+        width: 17rem;
+    }
+    
+}
